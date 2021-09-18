@@ -1,4 +1,6 @@
+import random
 from models.player import *
+from random import Random, choice
 
 class Game:
 
@@ -24,5 +26,3 @@ class Game:
                 return player1.name
             else:
                 return player2.name
-      
-            
