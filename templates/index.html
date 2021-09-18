@@ -1,10 +1,12 @@
 {% extends "base.html" %}
 
 {% block content %}
+<h1>Make your choice:</h1>
 
-<div id="form">
-    <form action="/player" method="post">
-    <p>label for</p>
-    </form>
-
+<div id="rps-choice"></div>
+{% for choice in choices %}
+<div>
+    <h2>{{ player.choice }}</h2>
 </div>
+
+{% endblock %}

@@ -8,21 +8,21 @@ class Game:
     def play(self, player1:Player, player2:Player):
     
         if player1.choice == player2.choice:
-            return("it's a tie!")
-        elif player1.choice == "Rock":
-            if player2.choice == "Scissors":
-                return player1
+            return(None)
+        elif player1.choice == "rock":
+            if player2.choice == "scissors":
+                return player1.name
             else:
-                return player2
-        elif player1.choice == "Scissors":
-            if player2.choice == "Paper":
-                return player1
+                return player2.name
+        elif player1.choice == "scissors":
+            if player2.choice == "paper":
+                return player1.name
             else:
-                return player2
-        elif player1.choice == "Paper":
-            if player2.choice == "Rock":
-                return player1
+                return player2.name
+        elif player1.choice == "paper":
+            if player2.choice == "rock":
+                return player1.name
             else:
-                return player2
+                return player2.name
       
             
