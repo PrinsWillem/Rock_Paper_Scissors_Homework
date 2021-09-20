@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+body > header > nav {
+    background-color:lightgray;
+    color: black;
+    text-align: center;
+}
+
+#navbar > ul > li {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+}
+
