@@ -1,6 +1,107 @@
+
+@import url("https://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
+
+.rvs-symbol-1 {
+    background-image: url(../static/rock.png);
+}
+
+.rvs-symbol-2 {
+    background-image: url(../static/paper.png);
+}
+
+.rvs-symbol-3 {
+    background-image: url(../static/scissors.png);
+}
+
+.rvs-symbol-4 {
+    background-image: url(../static/accusing-1297987.png);
+}
+
+.rvs-symbol-5 {
+    background-image: url(../static/laptop-24890.png);
+}
+
+.rvs-symbols {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.single-rvs-symbol {
+    height: 500px;
+    width: 25%;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.rvs-text{
+    font-size: 1vw;
+    font-weight: 400;
+    color: chocolate;
+    margin-top: 250px;
+    margin-bottom: 49px;
+    text-align: center;
+}
+
+.rvs-text h3{
+    font-family: "Nothing you Could Do", cursive;
+    font-size: 2.5vw;
+    text-transform: capitalize;
+    font-weight: 600;
+    line-height: .5;
+    color: chocolate;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.rvs-text p {
+    margin-top: 200px;
+}
+
+.rvs-text a {
+    background-color: chocolate;
+    color: fff;
+    margin-bottom: 0px;
+    text-decoration: none;
+}
+
+.boxed-btn3 {
+    background: #1EC6B6;
+    color: #fff;
+    display: inline-block;
+    padding: 18px 41px;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    border: 0;
+    border: 1px solid #1EC6B6;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff !important;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
 body {
     background-color: black;
     color: white;
+}
+
+body h1 {
+    text-align: center;
+    font-family: "Nothing you Could Do", cursive;
+    color:chocolate;
+}
+
+body h2 {
+    text-align: center;
+    font-family: "Nothing you Could Do", cursive;
+    color:chocolate;
 }
 
 body > header > nav {
@@ -14,4 +115,6 @@ body > header > nav {
     margin: 0px;
     padding: 0;
 }
+
+
 
